@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mink Organics-Jalandhar</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="/assets/images/logo.jpg" type="image.jpg" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - preload images
+  -->
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/hero-banner.png"
+      media="min-width(768px)"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/hero-banner-bg.png"
+      media="min-width(768px)"
+    />
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <h1>
+          <a href="#" class="logo">Mink Organics<span class="span">.</span></a>
+        </h1>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="nav-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="/views/menu.html" class="navbar-link" data-nav-link
+                >Menu</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a href="/views/catalogue.html" class="navbar-link" data-nav-link
+                >Catalogue</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#footer-id" class="navbar-link" data-nav-link
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-btn-group">
+          <button class="search-btn" aria-label="Search" data-search-btn>
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+          <button
+            class="nav-toggle-btn"
+            aria-label="Toggle Menu"
+            data-menu-toggle-btn
+          >
+            <span class="line top"></span>
+            <span class="line middle"></span>
+            <span class="line bottom"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- 
+    - #SEARCH BOX
+  -->
+
+    <div class="search-container" data-search-container>
+      <div class="search-box">
+        <input
+          type="search"
+          name="search"
+          aria-label="Search here"
+          placeholder="Type keywords here..."
+          class="search-input"
+        />
+
+        <button
+          class="search-submit"
+          aria-label="Submit search"
+          data-search-submit-btn
+        >
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <button
+        class="search-close-btn"
+        aria-label="Cancel search"
+        data-search-close-btn
+      ></button>
+    </div>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero" id="home">
+          <div class="btn-container">
+            <a href="/views/menu.html" class="btn left-btn"
+              ><button></button
+            ></a>
+            <a href="/views/catalogue.html" class="btn right-btn"
+              ><button></button
+            ></a>
+          </div>
+
+          <div class="left-btn-heading">MENU</div>
+          <div class="right-btn-heading">CATALOGUE</div>
+          <div class="logo"><img src="/logo.jpg" alt="" /></div>
+        </section>
+
+        <section class="hero1">
+          <h1 style="color: black">
+            Welcome <br />
+            to
+            <span
+              style="
+                color: orange;
+                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+                  1px 1px 0 #000;
+              "
+            >
+              Mink Organics!</span
+            >
+          </h1>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section section-divider gray about" id="about">
+          <div class="container">
+            <div class="about-banner">
+              <img
+                src="/assets/images/logo.jpg"
+                width="509"
+                height="459"
+                loading="lazy"
+                alt="Burger with Drinks"
+                class="w-100 about-img"
+              />
+            </div>
+
+            <div class="about-content">
+              <h2 class="h2 section-title" style="font-family: 'bellada'">
+                Best Health Cafe<br />
+                <span class="span">in City!</span>
+              </h2>
+
+              <p class="section-text">
+                We are passionate farmers and crazy enough to go against the
+                flow, we are trying to make organic food accessible, affordable
+                and fighting Malnutrition.
+              </p>
+
+              <ul class="about-list">
+                <li class="about-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+
+                  <span class="span">Delicious & Healthy Foods</span>
+                </li>
+
+                <li class="about-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+
+                  <span class="span">Organic Farming Expertise</span>
+                </li>
+
+                <li class="about-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+
+                  <span class="span">Organic and Natural Products</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #DELIVERY
+      -->
+
+        <section class="section section-divider gray delivery">
+          <div class="container">
+            <div class="delivery-content">
+              <h2 class="h2 section-title">
+                A Moments Of Delivered On <span class="span">Right Time</span> &
+                Place
+              </h2>
+
+              <p class="section-text">
+                We offer online food delivery through Zomato in Jalandhar City.
+                For groceries, we provide inter-city courier delivery services
+                nationwide. Contact us for your grocery delivery needs.
+              </p>
+
+              <a
+                href="https://www.zomato.com/jalandhar/mink-organics-model-town/order"
+                class="btn btn-hover"
+                ><button style="color: green; text-align: left">
+                  Order Now on <inline style="color: red"> Zomato</inline>
+                </button></a
+              >
+            </div>
+
+            <figure class="delivery-banner">
+              <img
+                src="./assets/images/delivery-banner-bg.png"
+                width="700"
+                height="602"
+                loading="lazy"
+                alt="clouds"
+                class="w-100"
+              />
+
+              <img
+                src="./assets/images/delivery-boy.svg"
+                width="1000"
+                height="880"
+                loading="lazy"
+                alt="delivery boy"
+                class="w-100 delivery-img"
+                data-delivery-boy
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #TESTIMONIALS
+      -->
+
+        <section class="section section-divider white testi">
+          <div class="container">
+            <p class="section-subtitle">Testimonials</p>
+
+            <h2 class="h2 section-title">
+              Our Customers <span class="span">Reviews</span>
+            </h2>
+
+            <p class="section-text">
+              Food is any substance consumed to provide nutritional support for
+              an organism.
+            </p>
+
+            <ul class="testi-list has-scrollbar">
+              <li class="testi-item">
+                <div class="testi-card">
+                  <div class="profile-wrapper">
+                    <figure class="avatar">
+                      <img
+                        src="https://b.zmtcdn.com/data/user_profile_pictures/1fd/c5cf23b3b59fbf867140106699e071fd.jpg?fit=around%7C400%3A400&crop=400%3A400%3B%2A%2C%2A"
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                        alt="Robert William"
+                      />
+                    </figure>
+
+                    <div>
+                      <h3 class="h4 testi-name">Amar Thakur</h3>
+
+                      <p class="testi-title">Customer</p>
+                    </div>
+                  </div>
+
+                  <blockquote class="testi-text">
+                    "ufffff.... bhaiyaa mazzaa aagyaa yar such main. such a
+                    tasty & healthy dosa ! bus reduce the price a little less &
+                    i will be ordering daily ! 😋"
+                  </blockquote>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testi-item">
+                <div class="testi-card">
+                  <div class="profile-wrapper">
+                    <figure class="avatar">
+                      <img
+                        src="https://b.zmtcdn.com/data/user_profile_pictures/c5d/c739ae2aa9f0d64a1462d2c9998d2c5d.jpg?fit=around%7C400%3A400&crop=400%3A400%3B%2A%2C%2A"
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                        alt="Thomas Josef"
+                      />
+                    </figure>
+
+                    <div>
+                      <h3 class="h4 testi-name">Rinee Bindra</h3>
+
+                      <p class="testi-title">Customer</p>
+                    </div>
+                  </div>
+
+                  <blockquote class="testi-text">
+                    "everything is super amazing 👏"<br /><br /><br /><br />
+                  </blockquote>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testi-item">
+                <div class="testi-card">
+                  <div class="profile-wrapper">
+                    <figure class="avatar">
+                      <img
+                        src="https://b.zmtcdn.com/web/assets/2267aec184e096c98c46a1565a5563661664945464.png?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                        alt="Charles Richard"
+                      />
+                    </figure>
+
+                    <div>
+                      <h3 class="h4 testi-name">Prabhnoor</h3>
+
+                      <p class="testi-title">Customer</p>
+                    </div>
+                  </div>
+
+                  <blockquote class="testi-text">
+                    "Its perfect for people wishing to have pure and
+                    nutritionally valued food Tasty and potion size is amazing
+                    and yoghurt dip was fantastic ♥️"
+                  </blockquote>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <section class="section section-divider white blog" id="blog">
+          <div class="container">
+            <p class="section-subtitle">Latest Blog Posts</p>
+
+            <h2 class="h2 section-title">
+              This Is All About <span class="span">Foods</span>
+            </h2>
+
+            <p class="section-text">
+              Food is any substance consumed to provide nutritional support for
+              an organism.
+            </p>
+
+            <ul class="blog-list">
+              <li>
+                <div class="blog-card">
+                  <div class="card-banner">
+                    <iframe
+                      src="https://www.youtube.com/embed/3k01S8T6ifQ"
+                      frameborder="0"
+                      width="600"
+                      height="250"
+                      loading="lazy"
+                      alt="What Do You Think About Cheese Pizza Recipes?"
+                      class="w-100"
+                    ></iframe>
+
+                    <div class="badge">Desi Ghee</div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="card-meta-wrapper">
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="person-outline"></ion-icon>
+
+                        <p class="meta-info">Anurag Arora</p>
+                      </a>
+                    </div>
+
+                    <h3 class="h3">
+                      <a
+                        href="https://himalayannatives.com/blog/desi-cow-ghee-a2-ghee-bilona-ghee-answering-7-most-asked-questions#:~:text=The%20Ghee%20made%20from%20the%20milk%20of%20our,ensures%20that%20the%20nutrients%20and%20flavour%20are%20preserved."
+                        class="card-title"
+                        >What Do You Think About A2 Bilona Desi Ghee?</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Bilona desi ghee is a type of clarified butter made using
+                      traditional methods that have been practiced in India for
+                      centuries.
+                    </p>
+
+                    <a
+                      href="https://www.youtube.com/@minkorganicsjalandhar8476"
+                      class="btn-link"
+                    >
+                      <span>View More</span>
+
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <div class="card-banner">
+                    <iframe
+                      src="https://www.youtube.com/embed/271U1nilMUc"
+                      frameborder="0"
+                      width="600"
+                      height="250"
+                      loading="lazy"
+                      alt="What Do You Think About Cheese Pizza Recipes?"
+                      class="w-100"
+                    ></iframe>
+
+                    <div class="badge">Sharbat</div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="card-meta-wrapper">
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="person-outline"></ion-icon>
+
+                        <p class="meta-info">Anurag Arora</p>
+                      </a>
+                    </div>
+
+                    <h3 class="h3">
+                      <a
+                        href="https://minnetonkaorchards.com/benefits-of-eating-plums/"
+                        class="card-title"
+                        >What Do You Think About Dry Plum Sharbat?</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Dry plum sharbat, also known as "dried plum syrup" or
+                      "Aloo Bukhara Sharbat" in some regions, is a refreshing
+                      and nutritious beverage made from dried plums (prunes).
+                    </p>
+
+                    <a
+                      href="https://www.youtube.com/@minkorganicsjalandhar8476"
+                      class="btn-link"
+                    >
+                      <span>View More</span>
+
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <div class="card-banner">
+                    <iframe
+                      src="https://www.youtube.com/embed/BC49gWL6rsg"
+                      frameborder="0"
+                      width="600"
+                      height="250"
+                      loading="lazy"
+                      alt="What Do You Think About Cheese Pizza Recipes?"
+                      class="w-100"
+                    ></iframe>
+
+                    <div class="badge">Biscuits</div>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="card-meta-wrapper">
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="person-outline"></ion-icon>
+
+                        <p class="meta-info">Anurag Arora</p>
+                      </a>
+                    </div>
+
+                    <h3 class="h3">
+                      <a
+                        href="https://himalayannatives.com/blog/desi-cow-ghee-a2-ghee-bilona-ghee-answering-7-most-asked-questions#:~:text=The%20Ghee%20made%20from%20the%20milk%20of%20our,ensures%20that%20the%20nutrients%20and%20flavour%20are%20preserved."
+                        class="card-title"
+                        >What Do You Think About A2 Bilona Desi Ghee?</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Bilona desi ghee is a type of clarified butter made using
+                      traditional methods that have been practiced in India for
+                      centuries.
+                    </p>
+
+                    <a
+                      href="https://www.youtube.com/@minkorganicsjalandhar8476"
+                      class="btn-link"
+                    >
+                      <span>View More</span>
+
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer" id="footer-id">
+      <div
+        class="footer-top"
+        style="background-image: url('./assets/images/footer-illustration.png')"
+      >
+        <div class="container">
+          <div class="footer-brand">
+            <a href="" class="logo">Mink Organics<span class="span">.</span></a>
+
+            <p class="footer-text">
+              Organic food experts support and help you to to find out which way
+              you can make yourself healthy in today's lifestyle.
+            </p>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Contact Info</p>
+            </li>
+
+            <li>
+              <p class="footer-list-item">98150-87864, 0181-4155222</p>
+            </li>
+
+            <li>
+              <p class="footer-list-item">minkorganics@gmail.com</p>
+            </li>
+
+            <li>
+              <address class="footer-list-item">
+                Head Office and Outlet: #1395 Latifpura Near Green Model Town,
+                Jalandhar, Punjab 144001,
+              </address>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Opening Hours</p>
+            </li>
+
+            <li>
+              <p class="footer-list-item">Monday-Saturday: 6:45am – 7:45pm</p>
+            </li>
+
+            <li>
+              <p class="footer-list-item">Sunday: 6:45am - 3:00pm</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright-text">
+            &copy; 2024 <a href="#" class="copyright-link">KunwarHarnoor</a> All
+            Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="Back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/filter.js"></script>
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
